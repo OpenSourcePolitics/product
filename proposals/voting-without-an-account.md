@@ -34,7 +34,7 @@ https://github.com/user-attachments/assets/c0928961-fa9a-4e97-8b4f-b5c0700c191e
    - I want to be assured that the voting system remains fair and transparent
    - EXTRA: I want to access metrics about conversion rates from anonymous voters to registered users (while remaining compliant with GDPR)
 
-## Important Constraints/Considerations
+## Important constraints/considerations
 
 1. Technical constraints:
    - The system must prevent multiple votes from the same visitor (session or IP address-based restrictions, protection from bots via an invisible Captcha)
