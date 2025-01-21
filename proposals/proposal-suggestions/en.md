@@ -1,5 +1,5 @@
 # Feature proposal: "Other proposals suggestions"
-*Metaproposal link : https://meta.decidim.org/processes/roadmap/f/122/proposals/17809 *
+Metaproposal link : https://meta.decidim.org/processes/roadmap/f/122/proposals/17809
 
 ## Problem 
 When users view a proposal, there's a missed opportunity for engagement by not showing them other relevant proposals. Similar features are common across platforms like YouTube's video suggestions or related articles in media sites. Implementing this feature ethically and in a balanced way could significantly improve user experience, especially since the drawer concept has been discontinued.
