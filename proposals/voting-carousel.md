@@ -21,7 +21,6 @@ We would also like to suggest integrating this with another feature we suggest, 
 ### Inspiration
 Make.org's streamlined voting interface, which successfully implements a single-proposal-at-a-time presentation model.
 
-
 https://github.com/user-attachments/assets/ccf08a2b-a1b0-4961-af32-dda3e4ae2ccd
 
 
@@ -35,6 +34,9 @@ https://github.com/user-attachments/assets/ccf08a2b-a1b0-4961-af32-dda3e4ae2ccd
 2. As a platform administrator:
    - I want to enable/disable the sequential voting interface for specific processes
    - I want to maintain existing voting rules while offering a simpler interface
+   - I want to customize the thank you message and its call to action shown after voting
+   - I want to set the order in which proposals are displayed (most recent, random, alphanumeric)
+   - I want to embed the voting carousel on external websites using an iframe, with a dedicated URL parameter that displays only the carousel interface without platform navigation or UI elements, along with an easy-to-use embed code snippet and optional "Generate Embed" button in the admin interface.
 
 ## Important constraints/considerations
 
