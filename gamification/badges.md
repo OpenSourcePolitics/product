@@ -21,14 +21,25 @@ https://github.com/user-attachments/assets/40ac50c8-593d-4311-9205-6b1c977fee5b
 ### User stories
 
 As an administrator:
-- I want to create custom badges with unique names, descriptions, and icons so I can tailor recognition to my community's goals
-- I want to set specific conditions for badge achievement (e.g., number of proposals created, comments posted, votes cast) so badges are awarded automatically
-- I want to create badge series for specific initiatives or campaigns so I can drive participation toward strategic goals
-- I want to activate badges for specific participatory spaces only so I can run temporary campaigns
+1. I want to select which badges should be available from a pre-defined set of badges (division into active and inactive badges, same as for components).
+2. I want to create custom badges with unique names, descriptions, and icons so I can tailor recognition to my community's goals.
+3. I want to set specific conditions for badge achievement (e.g., number of proposals created, comments posted, votes cast) so badges are awarded automatically. Participatory space conditions should also be available (e.g., only give this badge for proposals created in the participatory budget)
 
 As a participant:
-- I want to see which badges I've earned and which are available to earn so I understand my progress
-- I want to receive notifications when I earn a badge so I feel recognized
-- I want to display my badges on my public profile so others can see my contributions
-- I want to understand how to earn each badge so I know what actions to take
+1. I want to see which badges I've earned and display them on my public profile
+2. I want to receive notifications when I receive a new badge
 
+### Developing this solution in iterations
+
+#### First iteration
+
+The first iteration would be especially focused on the first administrator user story : as an administrator I want to select which badges should be available from a pre-defined set of badges (division into active and inactive badges, same as for components). This page would be available as on of the settings tabs in the back office 
+
+![Screenshot 2025-03-18 at 08 34 38](https://github.com/user-attachments/assets/1d51ea87-98a6-4986-a223-d1d7834c910f)
+
+
+In order to have some possibility of customization, these badges could be described in JSON, YML or any other data structure inside the config of the application so as to give the possibility for technical administrators to modify them. 
+
+#### Second iteration
+
+The major change with the second iteration should be the added flexibility for the administrator, where in order to create additional badges, they could do that from the back office.
